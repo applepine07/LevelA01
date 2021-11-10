@@ -1,14 +1,14 @@
-*{
+* {
     font-family: '標楷體';
     box-sizing: border-box;
     overflow: hidden;
 }
 
-body>*:not(aside, section), aside>*, section>*{
+body>*:not(aside, section), aside>*, section>* {
     border: 1px solid lightgray;
 }
 
-.main{
+.main {
     width: 1024px;
     height: 768px;
     display: flex;
@@ -18,30 +18,28 @@ body>*:not(aside, section), aside>*, section>*{
     text-align: center;
 }
 
-.top{
+.top {
     width: 1000px;
     height: 65px;
 }
 
-.aside{
+.aside {
     flex-basis: 215px;
     height: calc(768px - 65px - 20px);
     display: flex;
     flex-direction: column;
-
 }
 
-.menu{
+.menu {
     flex-basis: calc(100% - 25px);
-font-weight: 500;
+    font-weight: 500;
 }
 
-table{
+table {
     padding: 20px 50px;
-
 }
 
-td{
+td {
     font-size: 24px;
     border: 1px solid darkslategray;
     border-top: none;
@@ -50,7 +48,7 @@ td{
     color: #FF00FF;
 }
 
-.menu>a{
+.menu>a {
     display: inline-block;
     width: 200px;
     height: 35px;
@@ -58,41 +56,41 @@ td{
     background: url('/img/menu1.png');
     text-decoration: none;
     font-size: 16px;
+    color: #000000;
 }
 
-.menu>a:hover{
+.menu>a:hover {
     background: url('/img/menu2.png');
 }
 
-.update{
-flex-basis: 25px;
-font-size:16px;
-text-align: center;
+.update {
+    flex-basis: 25px;
+    font-size: 16px;
+    text-align: center;
 }
 
-.section{
+.section {
     flex-basis: calc(1000px - 215px);
     display: flex;
     flex-direction: column;
 }
 
-.marquee{
+.marquee {
     flex-basis: 29px;
     padding: 0 calc((1000px - 770px - 215px - 2px) /2);
     font-size: 24px;
     color: #0000FF;
 }
 
-.content{
+.content {
     flex-basis: calc(100% - 29px);
     padding: calc((1000px - 770px - 215px - 2px) /2);
-
 }
 
-.footer{
+.footer {
     width: 1000px;
     height: 20px;
     font-size: 16px;
-    color:#000000;
+    color: #000000;
     text-align: center;
 }
