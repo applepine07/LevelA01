@@ -14,7 +14,7 @@ body>*:not(aside, section), aside>*, section>* {
     display: flex;
     flex-wrap: wrap;
     padding: 0 12px;
-    margin: 20px;
+    margin: 20px auto;
     text-align: center;
 }
 
